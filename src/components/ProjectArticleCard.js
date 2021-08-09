@@ -31,7 +31,7 @@ function ProjectArticleCard({key, thumbnail, title, description, links, tags, on
                     {
                         links.map((link, i) => 
                             <div className="flex items-center rounded-md text-blue-900 font-medium text-xs" key={i}>
-                                <a href={link.link} target="_blank">{ link.type }</a>
+                                <a href={link.link} target="_blank" rel="noreferrer">{ link.type }</a>
                             
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 ml-1"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
