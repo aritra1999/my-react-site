@@ -6,7 +6,7 @@ import Articles from './views/Articles';
 
 import Navbar from './components/Navbar';
 
-import {Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 
 function App() {
   return (
