@@ -4,8 +4,8 @@ import articles from '../assets/data/articles.json';
 
 function Projects(){
     return (
-        <div>
-            <span className="text-4xl font-bold magical-underline" >Articles</span>
+        <div className="container px-5 py-24 mx-auto">
+            <span className="text-6xl font-bold magical-underline" >Articles</span>
             <div className="mt-10 grid lg:grid-cols-4 md:grid-cols-2 sm:col-span-1 gap-10">
                 {
                     articles.map((article, i) => <ProjectArticleCard
